@@ -18,17 +18,91 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+  <string name="pref_camera_aspectratio_wide">विस्तृत</string>
   <!-- Format for entries in the picture size menu. Parameter one is aspect ratio,
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
+  <string name="pref_camera_megapixel_format">(<xliff:g id="ratio" example="16:9">%1$s</xliff:g>) <xliff:g id="pixels">%2$1.1f</xliff:g> मेगापिक्सल</string>
   <!-- Settings screen, scene mode -->
+  <string name="pref_camera_scenemode_entry_antimotionblur">मोशन ब्लर में कमी</string>
+  <string name="pref_camera_scenemode_entry_aqua">एक्वा</string>
+  <string name="pref_camera_scenemode_entry_ar">ऑग्मेंटेड रिएलिटी</string>
+  <string name="pref_camera_scenemode_entry_asd">श्रेष्ठ शॉट</string>
+  <string name="pref_camera_scenemode_entry_baby">शिशु</string>
+  <string name="pref_camera_scenemode_entry_backgroundblur">बैकग्राउंड ब्लर</string>
+  <string name="pref_camera_scenemode_entry_backlight">बैकलाइट</string>
+  <string name="pref_camera_scenemode_entry_backlightportrait">बैकलाइट पोर्ट्रेट</string>
+  <string name="pref_camera_scenemode_entry_barcode">बारकोड</string>
+  <string name="pref_camera_scenemode_entry_beach">समुद्र तट</string>
+  <string name="pref_camera_scenemode_entry_beauty">सौंदर्य</string>
+  <string name="pref_camera_scenemode_entry_candlelight">मोमबत्ती की रोशनी</string>
+  <string name="pref_camera_scenemode_entry_cine">सिने</string>
+  <string name="pref_camera_scenemode_entry_closeup">क्लोजअप</string>
+  <string name="pref_camera_scenemode_entry_dark">अंधेरा</string>
+  <string name="pref_camera_scenemode_entry_dish">डिश</string>
+  <string name="pref_camera_scenemode_entry_duskdawn">सांझ - सवेरा</string>
+  <string name="pref_camera_scenemode_entry_document">दस्तावेज़</string>
+  <string name="pref_camera_scenemode_entry_fallcolor">फॉल कलर</string>
+  <string name="pref_camera_scenemode_entry_fireworks">आतिशबाजी</string>
+  <string name="pref_camera_scenemode_entry_flowers">फूल</string>
+  <string name="pref_camera_scenemode_entry_handheldtwilight">गोधूलि</string>
+  <string name="pref_camera_scenemode_entry_highsensitivity">उच्च संवेदनशीलता</string>
+  <string name="pref_camera_scenemode_entry_indoor">इनडोर</string>
+  <string name="pref_camera_scenemode_entry_landscape">लैंडस्केप</string>
+  <string name="pref_camera_scenemode_entry_mix_illuminant">मिश्रित प्रकाश</string>
+  <string name="pref_camera_scenemode_entry_mood">मूड</string>
+  <string name="pref_camera_scenemode_entry_nightportrait">रात्रि पोर्ट्रेट</string>
+  <string name="pref_camera_scenemode_entry_nightindoor">रात्रि इंडोर</string>
+  <string name="pref_camera_scenemode_entry_oldfilm">पुरानी फिल्म</string>
+  <string name="pref_camera_scenemode_entry_pet">पालतू पशु</string>
+  <string name="pref_camera_scenemode_entry_portrait">पोर्ट्रेट</string>
+  <string name="pref_camera_scenemode_entry_snow">बर्फ</string>
+  <string name="pref_camera_scenemode_entry_softskin">कोमल त्वचा</string>
+  <string name="pref_camera_scenemode_entry_sports">खेलकूद</string>
+  <string name="pref_camera_scenemode_entry_spotlight">स्पॉटलाइट</string>
+  <string name="pref_camera_scenemode_entry_steadyphoto">स्थिर फोटो</string>
+  <string name="pref_camera_scenemode_entry_supernight">अंधेरी रात</string>
+  <string name="pref_camera_scenemode_entry_sweepstitch">Sweep stitch</string>
+  <string name="pref_camera_scenemode_entry_text">शब्द</string>
+  <string name="pref_camera_scenemode_entry_theatre">रंगमंच</string>
+  <string name="pref_camera_scenemode_entry_whiteboard">व्हाइटबोर्ड</string>
   <!-- Settings screen, focus mode -->
+  <string name="pref_camera_focusmode_entry_continuous">लगातार</string>
+  <string name="pref_camera_focusmode_entry_mw_continuous">लगातार (MW)</string>
+  <string name="pref_camera_focusmode_entry_extended">विस्तारित</string>
+  <string name="pref_camera_focusmode_entry_facedetect">चेहरे की पहचान</string>
+  <string name="pref_camera_focusmode_entry_facepriority">फेस को प्राथमिकता</string>
+  <string name="pref_camera_focusmode_entry_fixed">स्थाई</string>
+  <string name="pref_camera_focusmode_entry_normal">सामान्य</string>
+  <string name="pref_camera_focusmode_entry_portrait">पोर्ट्रेट</string>
+  <string name="pref_camera_focusmode_entry_hyperfocal">हाइपरफोकल</string>
   <!-- Color effects -->
+  <string name="pref_camera_coloreffect_entry_washed">धुली हुई</string>
+  <string name="pref_camera_coloreffect_entry_vintage_warm">विंटेज वॉर्म</string>
+  <string name="pref_camera_coloreffect_entry_vintage_cold">विंटेज कोल्ड</string>
+  <string name="pref_camera_coloreffect_entry_point_blue">पॉइंट ब्लू</string>
+  <string name="pref_camera_coloreffect_entry_point_green">पॉइंट ग्रीन</string>
+  <string name="pref_camera_coloreffect_entry_point_red_yellow">पॉइंट रेड - येलो</string>
+  <string name="pref_camera_coloreffect_entry_cartoonize">कार्टूनाइज़</string>
   <!-- Red eye flash mode title -->
+  <string name="pref_camera_flashmode_entry_redeye">रेड आई</string>
+  <string name="pref_camera_flashmode_label_redeye">रेड आई</string>
   <!-- Power shutter -->
+  <string name="pref_camera_power_shutter_title">पॉवर शटर</string>
   <!-- Max brightness -->
+  <string name="pref_camera_max_brightness_title">सक्रीन कि उच्च रोशनी</string>
   <!-- Touch focus duration -->
+  <string name="pref_camera_focustime_title">टच फोकस की अवधि</string>
+  <string name="pref_camera_focustime_entry_0">0 सेकेंड</string>
+  <string name="pref_camera_focustime_entry_3">3 सेकेंड</string>
+  <string name="pref_camera_focustime_entry_5">५ सेकेंड</string>
+  <string name="pref_camera_focustime_entry_10">१० सेकेंड</string>
+  <string name="pref_camera_focustime_entry_infinite">अनंत</string>
   <!-- Shutter speed -->
+  <string name="pref_camera_shutter_speed_title">शटर की गति</string>
   <!-- Advanced options -->
+  <string name="developer_menu_enabled">अपने एडवांस्ड कैमरा उपाय सक्रिय कर दिए हैं।</string>
+  <string name="developer_menu_disabled">अपने एडवांस्ड कैमरा उपाय निष्क्रिय कर दिए हैं।</string>
+  <string name="pref_camera2_preferences_category_developer">एडवांस्ड उपाय</string>
 </resources>
