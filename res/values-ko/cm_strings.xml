@@ -18,90 +18,91 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
-  <string name="pref_camera_aspectratio_wide">와이드</string>
+  <string name="pref_camera_aspectratio_wide">Wide</string>
   <!-- Format for entries in the picture size menu. Parameter one is aspect ratio,
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
-  <string name="pref_camera_megapixel_format">(<xliff:g id="ratio" example="16:9">%1$s</xliff:g>) <xliff:g id="pixels">%2$1.1f</xliff:g>만 화소</string>
+  <string name="pref_camera_megapixel_format">(<xliff:g id="ratio" example="16:9">%1$s</xliff:g>) <xliff:g id="pixels">%2$1.1f</xliff:g> megapixels</string>
   <!-- Settings screen, scene mode -->
-  <string name="pref_camera_scenemode_entry_antimotionblur">모션 블러 감소</string>
-  <string name="pref_camera_scenemode_entry_aqua">아쿠아</string>
-  <string name="pref_camera_scenemode_entry_ar">증강 현실</string>
-  <string name="pref_camera_scenemode_entry_asd">베스트 샷</string>
-  <string name="pref_camera_scenemode_entry_baby">아기</string>
-  <string name="pref_camera_scenemode_entry_backgroundblur">배경 블러</string>
-  <string name="pref_camera_scenemode_entry_backlight">역광</string>
-  <string name="pref_camera_scenemode_entry_backlightportrait">역광 (인물)</string>
-  <string name="pref_camera_scenemode_entry_barcode">바코드</string>
-  <string name="pref_camera_scenemode_entry_beach">해변</string>
-  <string name="pref_camera_scenemode_entry_beauty">피부 보정</string>
-  <string name="pref_camera_scenemode_entry_candlelight">촛불</string>
-  <string name="pref_camera_scenemode_entry_cine">필름</string>
-  <string name="pref_camera_scenemode_entry_closeup">클로즈업</string>
-  <string name="pref_camera_scenemode_entry_dark">어두움</string>
-  <string name="pref_camera_scenemode_entry_dish">음식</string>
-  <string name="pref_camera_scenemode_entry_duskdawn">황혼</string>
-  <string name="pref_camera_scenemode_entry_document">문서</string>
-  <string name="pref_camera_scenemode_entry_fallcolor">가을색</string>
-  <string name="pref_camera_scenemode_entry_fireworks">불꽃놀이</string>
-  <string name="pref_camera_scenemode_entry_flowers">꽃</string>
-  <string name="pref_camera_scenemode_entry_handheldtwilight">손으로 찍는 황혼</string>
-  <string name="pref_camera_scenemode_entry_highsensitivity">고감도</string>
-  <string name="pref_camera_scenemode_entry_indoor">실내</string>
-  <string name="pref_camera_scenemode_entry_landscape">풍경</string>
-  <string name="pref_camera_scenemode_entry_mix_illuminant">혼합된 조명</string>
-  <string name="pref_camera_scenemode_entry_mood">분위기</string>
-  <string name="pref_camera_scenemode_entry_nightportrait">야간 인물</string>
-  <string name="pref_camera_scenemode_entry_nightindoor">야간 실내</string>
-  <string name="pref_camera_scenemode_entry_oldfilm">오래된 필름</string>
-  <string name="pref_camera_scenemode_entry_pet">동물</string>
-  <string name="pref_camera_scenemode_entry_portrait">인물</string>
-  <string name="pref_camera_scenemode_entry_snow">눈</string>
-  <string name="pref_camera_scenemode_entry_softskin">부드러운 피부</string>
-  <string name="pref_camera_scenemode_entry_sports">스포츠</string>
-  <string name="pref_camera_scenemode_entry_spotlight">스포트라이트</string>
-  <string name="pref_camera_scenemode_entry_steadyphoto">안정된 사진</string>
-  <string name="pref_camera_scenemode_entry_supernight">어두운 밤</string>
-  <string name="pref_camera_scenemode_entry_sweepstitch">파노라마</string>
-  <string name="pref_camera_scenemode_entry_text">텍스트</string>
-  <string name="pref_camera_scenemode_entry_theatre">극장</string>
-  <string name="pref_camera_scenemode_entry_whiteboard">화이트보드</string>
+  <string name="pref_camera_scenemode_entry_antimotionblur">Motion blur reduction</string>
+  <string name="pref_camera_scenemode_entry_aqua">Aqua</string>
+  <string name="pref_camera_scenemode_entry_ar">Augmented reality</string>
+  <string name="pref_camera_scenemode_entry_asd">Best shot</string>
+  <string name="pref_camera_scenemode_entry_baby">Baby</string>
+  <string name="pref_camera_scenemode_entry_backgroundblur">Background blur</string>
+  <string name="pref_camera_scenemode_entry_backlight">Backlight</string>
+  <string name="pref_camera_scenemode_entry_backlightportrait">Backlight portrait</string>
+  <string name="pref_camera_scenemode_entry_barcode">Barcode</string>
+  <string name="pref_camera_scenemode_entry_beach">Beach</string>
+  <string name="pref_camera_scenemode_entry_beauty">Beauty</string>
+  <string name="pref_camera_scenemode_entry_candlelight">Candlelight</string>
+  <string name="pref_camera_scenemode_entry_cine">Cine</string>
+  <string name="pref_camera_scenemode_entry_closeup">Closeup</string>
+  <string name="pref_camera_scenemode_entry_dark">Dark</string>
+  <string name="pref_camera_scenemode_entry_dish">Dish</string>
+  <string name="pref_camera_scenemode_entry_duskdawn">Duskdawn</string>
+  <string name="pref_camera_scenemode_entry_document">Document</string>
+  <string name="pref_camera_scenemode_entry_fallcolor">Fallcolor</string>
+  <string name="pref_camera_scenemode_entry_fireworks">Fireworks</string>
+  <string name="pref_camera_scenemode_entry_flowers">Flowers</string>
+  <string name="pref_camera_scenemode_entry_handheldtwilight">Handheld twilight</string>
+  <string name="pref_camera_scenemode_entry_highsensitivity">High sensitivity</string>
+  <string name="pref_camera_scenemode_entry_indoor">Indoor</string>
+  <string name="pref_camera_scenemode_entry_landscape">Landscape</string>
+  <string name="pref_camera_scenemode_entry_mix_illuminant">Mixed lighting</string>
+  <string name="pref_camera_scenemode_entry_mood">Mood</string>
+  <string name="pref_camera_scenemode_entry_nightportrait">Night portrait</string>
+  <string name="pref_camera_scenemode_entry_nightindoor">Night indoor</string>
+  <string name="pref_camera_scenemode_entry_oldfilm">Old film</string>
+  <string name="pref_camera_scenemode_entry_pet">Pet</string>
+  <string name="pref_camera_scenemode_entry_portrait">Portrait</string>
+  <string name="pref_camera_scenemode_entry_snow">Snow</string>
+  <string name="pref_camera_scenemode_entry_softskin">Soft skin</string>
+  <string name="pref_camera_scenemode_entry_sports">Sports</string>
+  <string name="pref_camera_scenemode_entry_spotlight">Spotlight</string>
+  <string name="pref_camera_scenemode_entry_steadyphoto">Steady photo</string>
+  <string name="pref_camera_scenemode_entry_supernight">Dark night</string>
+  <string name="pref_camera_scenemode_entry_sweepstitch">Sweep stitch</string>
+  <string name="pref_camera_scenemode_entry_text">Text</string>
+  <string name="pref_camera_scenemode_entry_theatre">Theatre</string>
+  <string name="pref_camera_scenemode_entry_whiteboard">Whiteboard</string>
   <!-- Settings screen, focus mode -->
-  <string name="pref_camera_focusmode_entry_continuous">연속</string>
-  <string name="pref_camera_focusmode_entry_mw_continuous">연속 (MW)</string>
-  <string name="pref_camera_focusmode_entry_extended">확장</string>
-  <string name="pref_camera_focusmode_entry_facedetect">얼굴 인식</string>
-  <string name="pref_camera_focusmode_entry_facepriority">얼굴 우선</string>
-  <string name="pref_camera_focusmode_entry_fixed">고정</string>
-  <string name="pref_camera_focusmode_entry_normal">일반</string>
-  <string name="pref_camera_focusmode_entry_portrait">인물</string>
-  <string name="pref_camera_focusmode_entry_hyperfocal">과초점</string>
+  <string name="pref_camera_focusmode_entry_continuous">Continuous</string>
+  <string name="pref_camera_focusmode_entry_mw_continuous">Continuous (MW)</string>
+  <string name="pref_camera_focusmode_entry_extended">Extended</string>
+  <string name="pref_camera_focusmode_entry_facedetect">Face detect</string>
+  <string name="pref_camera_focusmode_entry_facepriority">Face priority</string>
+  <string name="pref_camera_focusmode_entry_fixed">Fixed</string>
+  <string name="pref_camera_focusmode_entry_normal">Normal</string>
+  <string name="pref_camera_focusmode_entry_portrait">Portrait</string>
+  <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocal</string>
   <!-- Color effects -->
-  <string name="pref_camera_coloreffect_entry_washed">탈색</string>
-  <string name="pref_camera_coloreffect_entry_vintage_warm">빈티지 (따뜻하게)</string>
-  <string name="pref_camera_coloreffect_entry_vintage_cold">빈티지 (차갑게)</string>
-  <string name="pref_camera_coloreffect_entry_point_blue">파란색 포인트</string>
-  <string name="pref_camera_coloreffect_entry_point_green">초록색 포인트</string>
-  <string name="pref_camera_coloreffect_entry_point_red_yellow">빨강-노랑 포인트</string>
-  <string name="pref_camera_coloreffect_entry_cartoonize">만화</string>
+  <string name="pref_camera_coloreffect_entry_washed">Washed</string>
+  <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage warm</string>
+  <string name="pref_camera_coloreffect_entry_vintage_cold">Vintage cold</string>
+  <string name="pref_camera_coloreffect_entry_point_blue">Point blue</string>
+  <string name="pref_camera_coloreffect_entry_point_green">Point green</string>
+  <string name="pref_camera_coloreffect_entry_point_red_yellow">Point red-yellow</string>
+  <string name="pref_camera_coloreffect_entry_cartoonize">Cartoonize</string>
   <!-- Red eye flash mode title -->
-  <string name="pref_camera_flashmode_entry_redeye">적목</string>
-  <string name="pref_camera_flashmode_label_redeye">적목</string>
+  <string name="pref_camera_flashmode_entry_redeye">Red eye</string>
+  <string name="pref_camera_flashmode_label_redeye">RED EYE</string>
   <!-- Power shutter -->
-  <string name="pref_camera_power_shutter_title">전원 키 셔터</string>
+  <string name="pref_camera_power_shutter_title">Power shutter</string>
   <!-- Max brightness -->
-  <string name="pref_camera_max_brightness_title">밝은 화면</string>
+  <string name="pref_camera_max_brightness_title">Bright screen</string>
   <!-- Touch focus duration -->
-  <string name="pref_camera_focustime_title">터치 초점 지속시간</string>
-  <string name="pref_camera_focustime_entry_0">0초</string>
-  <string name="pref_camera_focustime_entry_3">3초</string>
-  <string name="pref_camera_focustime_entry_5">5초</string>
-  <string name="pref_camera_focustime_entry_10">10초</string>
-  <string name="pref_camera_focustime_entry_infinite">계속 유지</string>
+  <string name="pref_camera_focustime_title">Touch focus duration</string>
+  <string name="pref_camera_focustime_entry_0">0s</string>
+  <string name="pref_camera_focustime_entry_3">3s</string>
+  <string name="pref_camera_focustime_entry_5">5s</string>
+  <string name="pref_camera_focustime_entry_10">10s</string>
+  <string name="pref_camera_focustime_entry_infinite">Infinite</string>
   <!-- Shutter speed -->
-  <string name="pref_camera_shutter_speed_title">셔터 속도</string>
+  <string name="pref_camera_shutter_speed_title">Shutter speed</string>
   <!-- Advanced options -->
-  <string name="developer_menu_enabled">고급 카메라 옵션이 활성화되었습니다</string>
-  <string name="developer_menu_disabled">고급 카메라 옵션이 비활성화되었습니다</string>
+  <string name="developer_menu_enabled">You have enabled advanced camera options</string>
+  <string name="developer_menu_disabled">You have disabled advanced camera options</string>
+  <string name="pref_camera2_preferences_category_developer">Advanced options</string>
 </resources>

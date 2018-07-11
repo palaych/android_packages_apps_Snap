@@ -18,90 +18,91 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
-  <string name="pref_camera_aspectratio_wide">Large</string>
+  <string name="pref_camera_aspectratio_wide">Wide</string>
   <!-- Format for entries in the picture size menu. Parameter one is aspect ratio,
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
-  <string name="pref_camera_megapixel_format">(<xliff:g id="ratio" exemple="16:9">%1$s</xliff:g>) <xliff:g id="pixels">%2$1.1f</xliff:g> megapixels</string>
+  <string name="pref_camera_megapixel_format">(<xliff:g id="ratio" example="16:9">%1$s</xliff:g>) <xliff:g id="pixels">%2$1.1f</xliff:g> megapixels</string>
   <!-- Settings screen, scene mode -->
-  <string name="pref_camera_scenemode_entry_antimotionblur">Réduction du flou de mouvement</string>
-  <string name="pref_camera_scenemode_entry_aqua">Eau</string>
-  <string name="pref_camera_scenemode_entry_ar">Réalité augmentée</string>
-  <string name="pref_camera_scenemode_entry_asd">Meilleure prise</string>
-  <string name="pref_camera_scenemode_entry_baby">Bébé</string>
-  <string name="pref_camera_scenemode_entry_backgroundblur">Arrière-plan flou</string>
-  <string name="pref_camera_scenemode_entry_backlight">Contre-jour</string>
-  <string name="pref_camera_scenemode_entry_backlightportrait">Portrait en contre-jour</string>
-  <string name="pref_camera_scenemode_entry_barcode">Code barres</string>
-  <string name="pref_camera_scenemode_entry_beach">Plage</string>
-  <string name="pref_camera_scenemode_entry_beauty">Beauté</string>
-  <string name="pref_camera_scenemode_entry_candlelight">Lueur de chandelles</string>
-  <string name="pref_camera_scenemode_entry_cine">Ciné</string>
-  <string name="pref_camera_scenemode_entry_closeup">Gros plan</string>
-  <string name="pref_camera_scenemode_entry_dark">Sombre</string>
-  <string name="pref_camera_scenemode_entry_dish">Plat</string>
-  <string name="pref_camera_scenemode_entry_duskdawn">Crépuscule</string>
+  <string name="pref_camera_scenemode_entry_antimotionblur">Motion blur reduction</string>
+  <string name="pref_camera_scenemode_entry_aqua">Aqua</string>
+  <string name="pref_camera_scenemode_entry_ar">Augmented reality</string>
+  <string name="pref_camera_scenemode_entry_asd">Best shot</string>
+  <string name="pref_camera_scenemode_entry_baby">Baby</string>
+  <string name="pref_camera_scenemode_entry_backgroundblur">Background blur</string>
+  <string name="pref_camera_scenemode_entry_backlight">Backlight</string>
+  <string name="pref_camera_scenemode_entry_backlightportrait">Backlight portrait</string>
+  <string name="pref_camera_scenemode_entry_barcode">Barcode</string>
+  <string name="pref_camera_scenemode_entry_beach">Beach</string>
+  <string name="pref_camera_scenemode_entry_beauty">Beauty</string>
+  <string name="pref_camera_scenemode_entry_candlelight">Candlelight</string>
+  <string name="pref_camera_scenemode_entry_cine">Cine</string>
+  <string name="pref_camera_scenemode_entry_closeup">Closeup</string>
+  <string name="pref_camera_scenemode_entry_dark">Dark</string>
+  <string name="pref_camera_scenemode_entry_dish">Dish</string>
+  <string name="pref_camera_scenemode_entry_duskdawn">Duskdawn</string>
   <string name="pref_camera_scenemode_entry_document">Document</string>
-  <string name="pref_camera_scenemode_entry_fallcolor">Couleur d\'automne</string>
-  <string name="pref_camera_scenemode_entry_fireworks">Feux d\'artifice</string>
-  <string name="pref_camera_scenemode_entry_flowers">Fleurs</string>
-  <string name="pref_camera_scenemode_entry_handheldtwilight">Crépuscule à main levée</string>
-  <string name="pref_camera_scenemode_entry_highsensitivity">Forte sensibilité</string>
-  <string name="pref_camera_scenemode_entry_indoor">Intérieur</string>
-  <string name="pref_camera_scenemode_entry_landscape">Paysage</string>
-  <string name="pref_camera_scenemode_entry_mix_illuminant">Éclairage mixte</string>
-  <string name="pref_camera_scenemode_entry_mood">Humeur</string>
-  <string name="pref_camera_scenemode_entry_nightportrait">Portrait de nuit</string>
-  <string name="pref_camera_scenemode_entry_nightindoor">Intérieur de nuit</string>
-  <string name="pref_camera_scenemode_entry_oldfilm">Vieux film</string>
-  <string name="pref_camera_scenemode_entry_pet">Animal</string>
+  <string name="pref_camera_scenemode_entry_fallcolor">Fallcolor</string>
+  <string name="pref_camera_scenemode_entry_fireworks">Fireworks</string>
+  <string name="pref_camera_scenemode_entry_flowers">Flowers</string>
+  <string name="pref_camera_scenemode_entry_handheldtwilight">Handheld twilight</string>
+  <string name="pref_camera_scenemode_entry_highsensitivity">High sensitivity</string>
+  <string name="pref_camera_scenemode_entry_indoor">Indoor</string>
+  <string name="pref_camera_scenemode_entry_landscape">Landscape</string>
+  <string name="pref_camera_scenemode_entry_mix_illuminant">Mixed lighting</string>
+  <string name="pref_camera_scenemode_entry_mood">Mood</string>
+  <string name="pref_camera_scenemode_entry_nightportrait">Night portrait</string>
+  <string name="pref_camera_scenemode_entry_nightindoor">Night indoor</string>
+  <string name="pref_camera_scenemode_entry_oldfilm">Old film</string>
+  <string name="pref_camera_scenemode_entry_pet">Pet</string>
   <string name="pref_camera_scenemode_entry_portrait">Portrait</string>
-  <string name="pref_camera_scenemode_entry_snow">Neige</string>
-  <string name="pref_camera_scenemode_entry_softskin">Peau douce</string>
+  <string name="pref_camera_scenemode_entry_snow">Snow</string>
+  <string name="pref_camera_scenemode_entry_softskin">Soft skin</string>
   <string name="pref_camera_scenemode_entry_sports">Sports</string>
-  <string name="pref_camera_scenemode_entry_spotlight">Projecteur</string>
-  <string name="pref_camera_scenemode_entry_steadyphoto">Photo stable</string>
-  <string name="pref_camera_scenemode_entry_supernight">Nuit noire</string>
-  <string name="pref_camera_scenemode_entry_sweepstitch">Point de champ</string>
-  <string name="pref_camera_scenemode_entry_text">Texte</string>
-  <string name="pref_camera_scenemode_entry_theatre">Théâtre</string>
-  <string name="pref_camera_scenemode_entry_whiteboard">Tableau blanc</string>
+  <string name="pref_camera_scenemode_entry_spotlight">Spotlight</string>
+  <string name="pref_camera_scenemode_entry_steadyphoto">Steady photo</string>
+  <string name="pref_camera_scenemode_entry_supernight">Dark night</string>
+  <string name="pref_camera_scenemode_entry_sweepstitch">Sweep stitch</string>
+  <string name="pref_camera_scenemode_entry_text">Text</string>
+  <string name="pref_camera_scenemode_entry_theatre">Theatre</string>
+  <string name="pref_camera_scenemode_entry_whiteboard">Whiteboard</string>
   <!-- Settings screen, focus mode -->
-  <string name="pref_camera_focusmode_entry_continuous">Continu</string>
-  <string name="pref_camera_focusmode_entry_mw_continuous">Continu (MW)</string>
-  <string name="pref_camera_focusmode_entry_extended">Étendu</string>
-  <string name="pref_camera_focusmode_entry_facedetect">Détection de visage</string>
-  <string name="pref_camera_focusmode_entry_facepriority">Priorité au visage</string>
-  <string name="pref_camera_focusmode_entry_fixed">Fixe</string>
+  <string name="pref_camera_focusmode_entry_continuous">Continuous</string>
+  <string name="pref_camera_focusmode_entry_mw_continuous">Continuous (MW)</string>
+  <string name="pref_camera_focusmode_entry_extended">Extended</string>
+  <string name="pref_camera_focusmode_entry_facedetect">Face detect</string>
+  <string name="pref_camera_focusmode_entry_facepriority">Face priority</string>
+  <string name="pref_camera_focusmode_entry_fixed">Fixed</string>
   <string name="pref_camera_focusmode_entry_normal">Normal</string>
   <string name="pref_camera_focusmode_entry_portrait">Portrait</string>
   <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocal</string>
   <!-- Color effects -->
-  <string name="pref_camera_coloreffect_entry_washed">Délavé</string>
-  <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage chaud</string>
-  <string name="pref_camera_coloreffect_entry_vintage_cold">Vintage froid</string>
-  <string name="pref_camera_coloreffect_entry_point_blue">Point bleu</string>
-  <string name="pref_camera_coloreffect_entry_point_green">Point vert</string>
-  <string name="pref_camera_coloreffect_entry_point_red_yellow">Point rouge-jaune</string>
-  <string name="pref_camera_coloreffect_entry_cartoonize">Bande dessinée</string>
+  <string name="pref_camera_coloreffect_entry_washed">Washed</string>
+  <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage warm</string>
+  <string name="pref_camera_coloreffect_entry_vintage_cold">Vintage cold</string>
+  <string name="pref_camera_coloreffect_entry_point_blue">Point blue</string>
+  <string name="pref_camera_coloreffect_entry_point_green">Point green</string>
+  <string name="pref_camera_coloreffect_entry_point_red_yellow">Point red-yellow</string>
+  <string name="pref_camera_coloreffect_entry_cartoonize">Cartoonize</string>
   <!-- Red eye flash mode title -->
-  <string name="pref_camera_flashmode_entry_redeye">Yeux rouges</string>
-  <string name="pref_camera_flashmode_label_redeye">YEUX ROUGES</string>
+  <string name="pref_camera_flashmode_entry_redeye">Red eye</string>
+  <string name="pref_camera_flashmode_label_redeye">RED EYE</string>
   <!-- Power shutter -->
-  <string name="pref_camera_power_shutter_title">Déclencheur par bouton marche/arrêt</string>
+  <string name="pref_camera_power_shutter_title">Power shutter</string>
   <!-- Max brightness -->
-  <string name="pref_camera_max_brightness_title">Luminosité maximale</string>
+  <string name="pref_camera_max_brightness_title">Bright screen</string>
   <!-- Touch focus duration -->
-  <string name="pref_camera_focustime_title">Durée de mise au point tactile</string>
-  <string name="pref_camera_focustime_entry_0">0 s</string>
-  <string name="pref_camera_focustime_entry_3">3 s</string>
+  <string name="pref_camera_focustime_title">Touch focus duration</string>
+  <string name="pref_camera_focustime_entry_0">0s</string>
+  <string name="pref_camera_focustime_entry_3">3s</string>
   <string name="pref_camera_focustime_entry_5">5s</string>
   <string name="pref_camera_focustime_entry_10">10s</string>
-  <string name="pref_camera_focustime_entry_infinite">Infini</string>
+  <string name="pref_camera_focustime_entry_infinite">Infinite</string>
   <!-- Shutter speed -->
-  <string name="pref_camera_shutter_speed_title">Vitesse d\'obturation</string>
+  <string name="pref_camera_shutter_speed_title">Shutter speed</string>
   <!-- Advanced options -->
-  <string name="developer_menu_enabled">Vous avez activé les options avancées d\'appareil photo</string>
-  <string name="developer_menu_disabled">Vous avez désactivé les options avancées d\'appareil photo</string>
+  <string name="developer_menu_enabled">You have enabled advanced camera options</string>
+  <string name="developer_menu_disabled">You have disabled advanced camera options</string>
+  <string name="pref_camera2_preferences_category_developer">Advanced options</string>
 </resources>
