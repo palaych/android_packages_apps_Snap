@@ -1,5 +1,3 @@
-ifeq ($(BOARD_USES_SNAPDRAGONCAMERA_VERSION),2)
-
 LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -22,9 +20,9 @@ include $(LOCAL_PATH)/version.mk
 LOCAL_AAPT_FLAGS := \
         --auto-add-overlay \
         --version-name "$(version_name_package)" \
-        --version-code $(version_code_package) \
+        --version-code $(version_code_package)
 
-LOCAL_PACKAGE_NAME := SnapdragonCamera2
+LOCAL_PACKAGE_NAME := Snap
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRIVATE_PLATFORM_APIS:=true
 
@@ -51,4 +49,3 @@ endif
 include $(BUILD_PACKAGE)
 
 include $(call all-makefiles-under, $(LOCAL_PATH))
-endif # BOARD_USES_SNAPDRAGONCAMERA_VERSION
